@@ -16,7 +16,7 @@ export default function WeatherInfo(props) {
           <img src={props.data.iconURL} alt={props.data.icon} />
 
           <span className="temperature">
-            {Math.round(props.data.temperature)}{" "}
+            {Math.round(props.data.temperature)}
           </span>
           <span className="unit"> °F </span>
         </div>
