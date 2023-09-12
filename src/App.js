@@ -13,7 +13,16 @@ export default function App() {
             target="_blank"
             rel="noreferrer"
           >
-            open-souced
+            open-souced on GitHub
+          </a>{" "}
+          and
+          <a
+            href="https://adorable-gnome-1c989a.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {" "}
+            hosted on Netlify
           </a>
         </footer>
       </div>
